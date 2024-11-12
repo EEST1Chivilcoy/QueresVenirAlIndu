@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>¿Quieres venir al Indu?</title>
     <style>
-      /* Estilos generales */
-      body,
       html {
         margin: 0;
         padding: 0;
@@ -58,7 +56,6 @@
         position: relative;
         margin-left: 10px;
       }
-      /* Estilos para el modal */
       .modal {
         display: none;
         position: fixed;
@@ -83,7 +80,11 @@
   </head>
   <body>
     <div class="container">
-      <img src="Images\logo-escuela.png" alt="Logo de la escuela" class="logo" />
+      <img
+        src="Images\logo-escuela.png"
+        alt="Logo de la escuela"
+        class="logo"
+      />
       <div class="question">¿Quieres venir al Indu?</div>
       <div class="buttons">
         <button id="yesButton" class="button" onclick="showModal()">Sí</button>
@@ -91,7 +92,6 @@
       </div>
     </div>
 
-    <!-- Modal con el código QR -->
     <div id="modal" class="modal">
       <div class="modal-content">
         <p>¡Gracias por aceptar! Escanea el código QR para inscribirte:</p>
@@ -105,7 +105,6 @@
       const noButton = document.getElementById("noButton");
       const modal = document.getElementById("modal");
 
-      // Mueve el botón "No" a una posición aleatoria dentro de la ventana
       noButton.addEventListener("mouseover", () => {
         const x =
           Math.random() * (window.innerWidth - noButton.offsetWidth - 20);
@@ -116,12 +115,10 @@
         noButton.style.top = `${y}px`;
       });
 
-      // Función para mostrar el modal
       function showModal() {
         modal.style.display = "flex";
       }
 
-      // Función para cerrar el modal
       function closeModal() {
         modal.style.display = "none";
       }
