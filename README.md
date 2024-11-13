@@ -5,6 +5,6 @@
 
 ---
 
-> ***Este proyecto está diseñado para la feria escolar de la EEST1 Chivilcoy. Su objetivo es atraer a estudiantes de 6to de primaria para que elijan nuestra escuela. La página web incluye un botón de aceptación que, al ser presionado, muestra un código QR para la inscripción.***
+> ***Este proyecto está diseñado para la feria escolar de las secundarias de Chivilcoy. Su objetivo es atraer a estudiantes de 6to de primaria para que elijan nuestra escuela. La página web incluye un botón de aceptación que, al ser presionado, muestra un código QR para la inscripción.***
 
 ---
